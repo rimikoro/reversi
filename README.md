@@ -13,6 +13,7 @@ app.pyを実行することで、人 vs 人、人 vs AI、AI vs AIができま�
 
 # AIを自作してみたい人へ
 aiフォルダ内のbase.pyにあるBasePlayerクラスを継承し、get_moveという関数を必ず作りそこにどのように手を選ぶかを記述する必要があります
+logic.pyにAIを作る際に使うだろうという関数をいくつか書いていますのでご利用ください
 そして、get_move関数にはboard, legal_move, turnが引数として渡されます
 ※ 引数の最初にselfを入れるのを忘れずに
 board : 現在の盤面
