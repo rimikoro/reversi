@@ -1,5 +1,3 @@
-# reversi
-
 # できること
 app.pyを実行することで、人 vs 人、人 vs AI、AI vs AIができます
 
